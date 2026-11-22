@@ -231,3 +231,23 @@ Reproduce: `python scripts/stage6_flavor_stability.py`.
 Reproduce locally: `python scripts/stage7_pouch_flavor_retention.py`
 
 **Critical caveat:** water content changed with fat loading (52% reference vs. 47% with 5% fat), so the effect cannot be causally attributed to fat alone. The curves are source observations; only the temporal forecast is model-generated. **No optimal formulation is claimed.**
+
+---
+
+## Stage 8 — Proposed Pouch Quality Prediction Score (PQPS)
+
+**[Read the complete methodology and limitations](reports/stage8_quality_index.md)** · [Measured flavor-only subscore](data/stage8_measured_flavor_partial_scores.csv) · [Hypothetical scoring scenarios](data/stage8_hypothetical_scenarios.csv) · [Hypothetical weight sensitivity](data/stage8_weight_sensitivity_hypothetical.csv)
+
+A six-domain weighted geometric score is proposed for future **jointly measured** material-quality outcomes. **No published sample currently has all six required scores; an overall PQPS cannot be calculated.** The following plot is the independently computed **two-marker flavor-retention subscore only** for five directly matched patent matrix conditions:
+
+![Measured flavor-only partial scoring: NOT full pouch quality](figures/stage8_measured_flavor_partial_scores.png)
+
+### Why the full quality score is not yet available
+![Availability of matched quality-scoring measurements](figures/stage8_data_completeness.png)
+
+### Example of score sensitivity (hypothetical, not real formulations)
+![Hypothetical PQPS weight sensitivity](figures/stage8_hypothetical_weight_sensitivity.png)
+
+The scenario desirabilities and domain weights are **proposed assumptions** and must not be interpreted as empirical validation, a commercial ranking, or an optimum. The measured two-marker subscore comes from [US11844368B2](https://patents.justia.com/patent/11844368) at 30 °C / 75% RH and 3 weeks. Fat and water content vary together.
+
+Reproduce: `python scripts/stage8_quality_score.py`; test: `python -m unittest discover -s tests`.
