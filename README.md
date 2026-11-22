@@ -177,3 +177,20 @@ A 2025 peer-reviewed study provides data for one nicotine pouch product tested i
 **Why this matters:** The test medium and assay design must be recorded alongside material properties. Different datasets are kept separate until their SKU, physical composition, endpoint definitions and protocols can be matched. Source: [Li et al. (2025), ACS Omega](https://doi.org/10.1021/acsomega.5c06007).
 
 Run: `python scripts/stage4_environmental_robustness.py`.
+
+
+---
+
+## Stage 5 — Flavor effects: published evidence and material-quality DOE
+
+**[Read the flavor evidence report](reports/stage5_flavor_evidence.md)** · [Published analytes](data/stage5_published_flavor_analyte_examples.csv) · [Source inventory](data/stage5_flavor_source_inventory.csv) · [Blank non-nicotine flavor DOE](data/stage5_proposed_flavor_mcc_reference_DOE_BLANK.csv)
+
+Public studies show that flavor identities and chemical amounts differ across products, yet some controlled comparisons report broadly similar nicotine-release profiles. Stage 5 identifies this gap without pretending to have a validated flavor-effect regression.
+
+![Published flavor chemical amounts](figures/stage5_published_flavor_chemistry.png)
+
+![Reported flavor dissolution similarity factors](figures/stage5_reported_flavor_similarity.png)
+
+**No flavor-specific optimum or continuous response surface is claimed.** The prospective test matrix uses nicotine-free MCC/HPC analogs and contains blank response fields.
+
+Run: `python scripts/stage5_flavor_evidence.py`.

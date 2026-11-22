@@ -1,0 +1,4 @@
+product,analyte,mean_mg_per_pouch,reported_sd_mg_per_pouch,source_url,evidence_type
+Rogue Peppermint,Menthol,15.1,1.2,https://doi.org/10.1093/ntr/ntaf105,"measured commercial product, not formulation DOE"
+Rogue Wintergreen,Methyl salicylate,14.9,0.5,https://doi.org/10.1093/ntr/ntaf105,"measured commercial product, not formulation DOE"
+Juice Head Raspberry Lemonade Mint,Triacetin,29.0,0.1,https://doi.org/10.1093/ntr/ntaf105,"measured commercial product, not formulation DOE"
