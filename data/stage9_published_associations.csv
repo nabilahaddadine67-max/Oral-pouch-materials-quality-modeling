@@ -1,0 +1,4 @@
+comparison,n,pearson_r,min_leave_one_out_r,max_leave_one_out_r,interpretation
+powder_bed_void_fraction_vs_oven_volatiles_pct,7,-0.3319340688322686,-0.593229154518942,0.022958991615362596,EXPLORATORY; density-derived void fraction is not internal pore accessibility
+powder_bed_void_fraction_vs_water_activity,7,-0.19860691680290865,-0.5410102638380135,0.17563641049575326,EXPLORATORY; density-derived void fraction is not internal pore accessibility
+water_activity_vs_oven_volatiles_pct,7,0.9833729082654409,0.9772715761227335,0.9937096015230592,EXPLORATORY; oven volatiles are not water-specific

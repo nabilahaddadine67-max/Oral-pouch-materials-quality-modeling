@@ -1,0 +1,2 @@
+sample_id,material_description,conditioning_temperature_C,relative_humidity_pct,hydration_state,pore_size_min_nm,pore_size_max_nm,water_accessible_pore_volume_ml_g,total_pore_volume_ml_g,accessible_method,total_method,same_pore_size_domain,same_hydration_state,compatible_methods,replicate_id,notes
+SAMPLE_001,,,,,,,,,,,,,,,

@@ -52,3 +52,11 @@ US11844368B2 / https://patents.justia.com/patent/11844368 — Example 1 Tables 1
 
 ### Stage 8 proposed scoring model
 `stage8_measured_flavor_partial_scores.csv` is derived from the Stage 7 patent's **matched 3-week limonene and linalyl acetate retention** measurements (US11844368B2 Tables 3b and 4b) using a two-marker geometric mean. It explicitly leaves the **overall** six-domain score missing. `stage8_hypothetical_scenarios.csv` and `stage8_weight_sensitivity_hypothetical.csv` are generated examples with fabricated desirabilities and assumed weights, clearly identified as such. See `reports/stage8_quality_index.md`. No across-study data merging or missing-value imputation is performed.
+
+
+### Stage 9 source and method note
+
+- **Original commercial pouch data**: Platt et al., Scientific Reports (2026), Table 6/Table 8, https://doi.org/10.1038/s41598-025-34556-5. Reuses the previously transcribed `physical_moisture_combined.csv`; no novel laboratory data.
+- **Stage 9 derivatives**: `stage9_published_associations.csv` is independently computed correlation/leave-one-out summaries; `stage9_HYPOTHETICAL_pai_sensitivity_NOT_RESULTS.csv` contains **synthetic examples**, not observations.
+- **Method context**: https://doi.org/10.1007/s10570-012-9727-z explains DVS/DSC complementarity and their limitations for cellulose pore-water analysis.
+- **No measured commercial PAI**: neither the seven-product density table nor the moisture table contains internal water-accessible pore volume.
