@@ -1,0 +1,8 @@
+preparation_example,hpc_binder_wt_pct_of_solids,total_nicotine_mg_per_pouch,measured_pH,mean_particle_um,moisture_pct,cumulative_release_4min_mg,cumulative_release_8min_mg,cumulative_release_12min_mg,cumulative_release_16min_mg,release_4min_pct_derived,release_16min_pct_derived
+9,2,5.66,8.66,202,1.18,0.335,1.096,2.09,2.972,5.919,52.509
+10,5,5.43,8.53,187,1.57,0.507,1.581,2.629,3.357,9.337,61.823
+11,8,5.26,8.37,194,2.28,0.92,2.064,2.925,3.491,17.49,66.369
+12,12,5.88,8.35,194,1.87,0.822,1.751,2.465,3.007,13.98,51.139
+13,16,5.74,8.6,198,1.45,0.713,1.46,2.051,2.52,12.422,43.902
+14,6,6.03,7.09,194,1.57,0.667,1.311,1.867,2.392,11.061,39.668
+15,10,5.82,7.06,188,1.49,0.691,1.276,1.785,2.299,11.873,39.502

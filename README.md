@@ -100,3 +100,34 @@ See [`data/SOURCES.md`](data/SOURCES.md) for each primary source, the precise or
 - Extract source-verified, numerical dissolution endpoints from the peer-reviewed study to compare with material properties.
 - Add replication, uncertainty, and prospective formulation DOE when independent experimental data become available.
 - Create literature-grounded, multiobjective quality specifications rather than maximizing one release endpoint.
+
+
+---
+
+## Stage 2 — Continuous-factor public-data reanalysis (2025 patent)
+
+We independently transcribed Tables 1, 4 and 5 of [US20250072472A1](https://patents.google.com/patent/US20250072472A1/en) and investigated **seven hydroxypropyl-cellulose binder levels** and a **separate four-level MCC comparison**. These are independent secondary analyses; no experiments were conducted for this repository.
+
+[Read the continuous-factor analysis](reports/continuous_factor_study.md) · [View model comparison CSV](data/hpc_model_comparison.csv) · [Source binder dataset](data/hpc_binder_patent_table4_table5.csv)
+
+### Observed binder-level trend and exploratory regression
+
+![Published binder levels and early release, with exploratory linear and quadratic fits](figures/hpc_vs_release4.png)
+
+![Published binder levels and 16-min release](figures/hpc_vs_release16.png)
+
+### Other physical properties
+
+![Moisture versus binder level](figures/hpc_vs_moisture.png)
+
+### Separate MCC study
+
+![MCC levels and release, reported from a different published experiment](figures/mcc_vs_release.png)
+
+### Actual measured binder levels by measurement time — NOT a two-factor RSM
+
+![Observed release heatmap for binder level against measurement time](figures/hpc_time_observed_heatmap.png)
+
+**Scientific limits:** Published patent-applicant results are unreplicated, and some outcomes and covariates (including pH) differ across runs. HPC binder and MCC were *not* studied jointly as a crossed factorial design. This is not evidence for a validated optimum; no invented 3D contour or response surface is shown. The [prospective DOE template](data/prospective_two_factor_design_TEMPLATE_NOT_RESULTS.csv) contains blank response cells for potential future laboratory work.
+
+Run locally: `python scripts/continuous_factor_study.py`.

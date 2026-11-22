@@ -21,3 +21,11 @@ Platt, S. P. et al., *Dissolution and physical characterization of oral nicotine
 ## Data handling
 
 All values are manually transcribed from public sources and may reflect rounding. Cross-check against the originals before citing numerical inferences. No proprietary, employer, or personal laboratory data are used. Full underlying replicate-level data for the paper are not provided here.
+
+
+### Stage 2 (2025 patent)
+- US20250072472A1, *Nicotine pouch filler and method of preparing the same*, published March 6, 2025. https://patents.google.com/patent/US20250072472A1/en
+- Table 1: MCC content and two release measurements (four observations).
+- Table 4: HPC levels 2, 5, 8, 12, 16, 6, 10% mapped to Preparation Examples 9–15; reported nicotine mass, pH, particle size, moisture.
+- Table 5: 4-, 8-, 12-, and 16-min cumulative release in mg for all seven conditions. Derived release (%) = measured cumulative mass/assayed total content×100.
+- US patent application, not peer-reviewed. Applicant reported measurements, no independent replicate information. No data from employer.
