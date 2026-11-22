@@ -6,6 +6,32 @@ This project reanalyzes publicly reported experimental data to study the relatio
 
 > **No proprietary or employer data.** Published summary data only. No original laboratory measurements are claimed.
 
+## New: independent factorial reanalysis (secondary analysis)
+
+The original patent data were collected by the patent applicant, **not** by this project. This repository now performs an independent arithmetic factorial reanalysis of eight reported formulations, computes release-profile summaries, and compares two explicitly exploratory reduced prediction models. It does **not** establish a quality optimum.
+
+**[Read the factorial analysis and limitations](reports/factorial_study.md)** · **[See computed effects](data/factorial_effects_by_time.csv)** · **[Compare models](data/model_comparison_30min.csv)**
+
+### Observed 30-minute release: all eight categorical conditions
+
+![Categorical heatmap of observed 30-minute release](figures/categorical_factorial_heatmap.png)
+
+### Factorial contrasts over time
+
+![Factorial effects over release measurement time](figures/factorial_effects_over_time.png)
+
+### Exploratory out-of-sample prediction check
+
+![Leave-one-out prediction vs observed release](figures/main_effects_loocv.png)
+
+**Note:** A continuous contour or response surface is **not appropriate** for three two-level categorical factors. The colored heatmap displays only combinations actually measured in the patent. Eight unreplicated runs cannot establish a statistically validated optimum. Published formulations also differ in some ingredients outside the three simplified factor labels; the report explicitly discusses this confounding.
+
+**Run the new study** after installing requirements:
+
+```powershell
+python scripts/factorial_study.py
+```
+
 ## Research questions
 
 1. How do tapped-bed porosity and oven volatiles vary across seven commercial oral nicotine pouch fillers?
@@ -24,11 +50,13 @@ oral-pouch-materials-quality-modeling/
 │   ├── moisture_table8.csv
 │   └── patent_table22_release.csv
 ├── scripts/
-│   └── analyze.py
+│   ├── analyze.py
+│   └── factorial_study.py
 ├── tests/
 │   └── test_data.py
 ├── reports/
-│   └── results.md        (generated)
+│   ├── results.md        (generated)
+│   └── factorial_study.md
 └── figures/              (generated PNGs)
 ```
 
@@ -42,6 +70,7 @@ py -m venv .venv
 python -m pip install -r requirements.txt
 python -m unittest discover -s tests
 python scripts/analyze.py
+python scripts/factorial_study.py
 ```
 
 Open the `figures` directory for the charts and `reports/results.md` for calculated results. If PowerShell blocks activation, run `.venv\Scripts\python.exe` directly instead of activating.
