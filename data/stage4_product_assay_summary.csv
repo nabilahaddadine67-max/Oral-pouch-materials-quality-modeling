@@ -1,0 +1,4 @@
+brand,flavor,label_nicotine_mg_pouch,assayed_nicotine_mg_pouch,assayed_nicotine_sd_n3,pouch_mass_g,product_extract_pH,product_extract_pH_sd,source_doi
+Zyn,Cool Mint,6,5.58,0.31,0.41,8.22,0.02,https://doi.org/10.1021/acsomega.5c06007
+Dryft,Spearmint,7,5.94,0.5,0.38,8.32,0.05,https://doi.org/10.1021/acsomega.5c06007
+Velo,Mint,4,4.16,0.24,0.44,7.4,0.02,https://doi.org/10.1021/acsomega.5c06007

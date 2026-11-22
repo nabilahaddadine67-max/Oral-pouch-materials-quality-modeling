@@ -29,3 +29,15 @@ All values are manually transcribed from public sources and may reflect rounding
 - Table 4: HPC levels 2, 5, 8, 12, 16, 6, 10% mapped to Preparation Examples 9–15; reported nicotine mass, pH, particle size, moisture.
 - Table 5: 4-, 8-, 12-, and 16-min cumulative release in mg for all seven conditions. Derived release (%) = measured cumulative mass/assayed total content×100.
 - US patent application, not peer-reviewed. Applicant reported measurements, no independent replicate information. No data from employer.
+
+
+### Stage 3 additional sources
+- Ibrahim and Markl (2025), University of Strathclyde, CC BY 4.0 raw DVS/particle-size excipient dataset: https://doi.org/10.15129/e9a284a2-8954-463e-9fed-06b5b1893c82 — external 115 MB zip NOT downloaded or bundled.
+- Serajuddin, Raje and Kandagatla (2025), moisture sorption/desorption MCC grades: https://doi.org/10.66617/001c.141261 — context only; no numeric values digitized.
+- `stage3_associations_and_sensitivity.csv`: calculated from Stage 1 and Stage 2 source-derived CSVs, not newly measured data.
+- `stage3_prospective_non_nicotine_DOE_BLANK.csv`: proposed experiment, all response fields intentionally blank.
+
+
+### Stage 4 additional source
+- Li X. et al. (2025), *Evaluation of Factors Impacting Nicotine Permeation in Oral Nicotine Pouch Products*, *ACS Omega*, https://doi.org/10.1021/acsomega.5c06007. Table 1 (assayed mass), Table 2 (extract pH), Table 3 (30min concentration), section 3.4.3 (neat nicotine medium controls) and section 3.4.4 (pouch-extract permeability). Published numerical summaries transcribed and attributed. Paper license CC BY-NC-ND 4.0: not a blanket unrestricted data redistribution authorization; respect publisher and author rights.
+- `stage4_public_data_feature_inventory.csv`: evidence provenance and cross-study comparability cautions. Strathclyde MCC raw archive is referenced only; its observations have not been downloaded or modeled.

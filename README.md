@@ -131,3 +131,49 @@ We independently transcribed Tables 1, 4 and 5 of [US20250072472A1](https://pate
 **Scientific limits:** Published patent-applicant results are unreplicated, and some outcomes and covariates (including pH) differ across runs. HPC binder and MCC were *not* studied jointly as a crossed factorial design. This is not evidence for a validated optimum; no invented 3D contour or response surface is shown. The [prospective DOE template](data/prospective_two_factor_design_TEMPLATE_NOT_RESULTS.csv) contains blank response cells for potential future laboratory work.
 
 Run locally: `python scripts/continuous_factor_study.py`.
+
+
+---
+
+## Stage 3 — Material quality, sensitivity checks and prospective DOE
+
+**[Read Stage 3 scientific report](reports/stage3_material_quality.md)** · [See quantitative associations](data/stage3_associations_and_sensitivity.csv) · [Open blank non-nicotine DOE](data/stage3_prospective_non_nicotine_DOE_BLANK.csv)
+
+This phase compares **publicly reported moisture, water activity, particle-bed porosity, and binder-series physical responses** with leave-one-out sensitivity analysis. It also locates an independently released [open DVS/particle-size MCC dataset](https://doi.org/10.15129/e9a284a2-8954-463e-9fed-06b5b1893c82) for possible follow-up validation. The 115-MB external raw dataset is *not bundled or analyzed yet*.
+
+### Measured cross-product moisture relationship
+
+![Water activity vs oven volatiles](figures/stage3_aw_vs_oven_volatiles.png)
+
+### Robustness check: does a single product dominate the correlation?
+
+![Leave-one-out sensitivity](figures/stage3_porosity_loo_sensitivity.png)
+
+### HPC series: physical-response variation
+
+![HPC moisture and pH](figures/stage3_hpc_moisture_ph.png)
+
+**Proposed experiment, not actual measurements:** The blank 81-run non-nicotine material design crosses MCC grade, HPC fraction, and RH with three independent preparations. This establishes what data are needed before a continuous response surface or optimum can be defended.
+
+```powershell
+python scripts/stage3_material_quality.py
+```
+
+
+---
+
+## Stage 4 — Additional public data: robustness to test environment
+
+**[Read the Stage 4 evidence report](reports/stage4_environmental_robustness.md)** · [Inspect the new literature observations](data/stage4_artificial_saliva_observations.csv) · [Source comparability inventory](data/stage4_public_data_feature_inventory.csv)
+
+A 2025 peer-reviewed study provides data for one nicotine pouch product tested in **three different artificial salivas**, plus 3-brand same-medium assays and a neat-solution medium control. This adds an experimentally observed source of **measurement variability** to our predictive-quality framework; it does not yield a new commercial formulation optimum.
+
+![Same product, different media](figures/stage4_zyn_saliva_concentration.png)
+
+![Same medium, product comparison](figures/stage4_orthana_pH_permeability.png)
+
+![Medium control benchmark](figures/stage4_medium_permeability_benchmark.png)
+
+**Why this matters:** The test medium and assay design must be recorded alongside material properties. Different datasets are kept separate until their SKU, physical composition, endpoint definitions and protocols can be matched. Source: [Li et al. (2025), ACS Omega](https://doi.org/10.1021/acsomega.5c06007).
+
+Run: `python scripts/stage4_environmental_robustness.py`.

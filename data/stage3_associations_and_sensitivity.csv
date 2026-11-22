@@ -1,0 +1,7 @@
+dataset,x,y,n,pearson_r,spearman_rho,loo_pearson_min,loo_pearson_max,interpretation
+commercial_products,oven_volatiles_pct,water_activity,7,0.983,0.889,0.977,0.994,Exploratory association only; observational or confounded published summaries
+commercial_products,porosity_pct_reported,oven_volatiles_pct,7,-0.333,-0.464,-0.595,0.023,Exploratory association only; observational or confounded published summaries
+commercial_products,porosity_pct_reported,water_activity,7,-0.2,-0.334,-0.543,0.176,Exploratory association only; observational or confounded published summaries
+patent_HPC_series,hpc_binder_wt_pct_of_solids,moisture_pct,7,0.227,0.162,-0.175,0.567,Exploratory association only; observational or confounded published summaries
+patent_HPC_series,hpc_binder_wt_pct_of_solids,mean_particle_um,7,-0.045,0.037,-0.445,0.638,Exploratory association only; observational or confounded published summaries
+patent_HPC_series,hpc_binder_wt_pct_of_solids,measured_pH,7,0.015,-0.286,-0.315,0.308,Exploratory association only; observational or confounded published summaries

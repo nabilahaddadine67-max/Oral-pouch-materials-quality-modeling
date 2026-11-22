@@ -1,8 +1,8 @@
 response,model,loocv_rmse,in_sample_rmse,coefficients_descending_order
-release_4min_pct,linear,4.148,2.751,0.441964; 8.00083
-release_4min_pct,quadratic,2.904,1.878,-0.103188; 2.3092; 1.53488
-release_16min_pct,linear,11.298,9.214,-0.737839; 56.9208
-release_16min_pct,quadratic,12.608,9.15,-0.055845; 0.2727; 53.4214
+release_4min_pct,linear,4.148,2.75,0.441995; 8.00062
+release_4min_pct,quadratic,2.903,1.878,-0.103179; 2.30906; 1.53527
+release_16min_pct,linear,11.298,9.214,-0.737871; 56.9209
+release_16min_pct,quadratic,12.608,9.15,-0.0558478; 0.27272; 53.4214
 mean_particle_um,linear,8.049,4.848,-0.0498915; 194.278
 mean_particle_um,quadratic,6.765,3.256,0.184425; -3.38715; 205.834
 moisture_pct,linear,0.48,0.317,0.0170065; 1.48666

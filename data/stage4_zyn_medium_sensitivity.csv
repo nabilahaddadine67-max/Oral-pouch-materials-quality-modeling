@@ -1,0 +1,4 @@
+brand,flavor,label_nicotine_mg_pouch,saliva,nicotine_conc_30min_mg_ml_mean,nicotine_conc_30min_mg_ml_sd_n3,donor_pH_0min_mean,donor_pH_0min_sd_n12,donor_pH_120min_mean,donor_pH_120min_sd_n12,Papp_mean_1e_minus6_cm_s,source_doi,release_mg_at_30min_assuming_10ml,percent_difference_from_buffer_concentration
+Zyn,Cool Mint,6.0,Buffer,0.6,0.02,8.06,0.03,8.46,0.02,46.29,https://doi.org/10.1021/acsomega.5c06007,6.0,0.0
+Zyn,Cool Mint,6.0,Salivea,0.48,0.05,8.04,0.05,8.36,0.04,44.63,https://doi.org/10.1021/acsomega.5c06007,4.8,-19.999999999999996
+Zyn,Cool Mint,6.0,Orthana,0.6,0.01,7.79,0.09,8.09,0.02,38.24,https://doi.org/10.1021/acsomega.5c06007,6.0,0.0
