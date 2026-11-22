@@ -251,3 +251,23 @@ A six-domain weighted geometric score is proposed for future **jointly measured*
 The scenario desirabilities and domain weights are **proposed assumptions** and must not be interpreted as empirical validation, a commercial ranking, or an optimum. The measured two-marker subscore comes from [US11844368B2](https://patents.justia.com/patent/11844368) at 30 °C / 75% RH and 3 weeks. Fat and water content vary together.
 
 Reproduce: `python scripts/stage8_quality_score.py`; test: `python -m unittest discover -s tests`.
+
+
+---
+
+## Stage 9 — Pore Accessibility Index (PAI): operational definition and validation gap
+
+**[Read Stage 9 scientific report](reports/stage9_pore_accessibility_index.md)** · [PAI calculator (Python)](scripts/stage9_pore_accessibility.py) · [Published-property associations](data/stage9_published_associations.csv) · [Blank PAI measurements template](data/stage9_PAI_measurement_TEMPLATE_BLANK.csv)
+
+We propose `PAI (%) = 100 × water-accessible internal pore volume / matched total internal pore volume`, **only when both pore volumes describe the same pore-size interval and material hydration state**. The seven published pouch products have **no measured internal water-accessible pore volumes**, so **no brand-level PAI or new ranking is claimed**.
+
+### Measured published property comparisons (not internal PAI)
+![Published density-derived porosity versus moisture metrics](figures/stage9_published_bed_porosity_associations.png)
+
+### Dependence of correlations on individual products
+![Leave-one-product-out association ranges](figures/stage9_leave_one_out_correlations.png)
+
+### Sensitivity example only — synthetic, not published results
+![Assumed volume ratio sensitivity](figures/stage9_HYPOTHETICAL_pai_sensitivity.png)
+
+Reproduce: `python scripts/stage9_pore_accessibility.py` and `python -m unittest discover -s tests`. This Stage 9 update preserves and does not revise the Stage 1–8 source observations.
