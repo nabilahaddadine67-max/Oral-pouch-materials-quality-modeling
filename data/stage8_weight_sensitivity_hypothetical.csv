@@ -1,0 +1,4 @@
+scenario,nominal_score,weight_sensitivity_p05,weight_sensitivity_p50,weight_sensitivity_p95,top_rank_frequency,warning
+Scenario A,84.07904,82.69331,84.10282,85.40540,0.99760,"Hypothetical-only; uncertainty from assumed weights, NOT experimental CI"
+Scenario B,77.99991,75.81453,77.98355,80.30279,0.00240,"Hypothetical-only; uncertainty from assumed weights, NOT experimental CI"
+Scenario C,80.26126,79.19609,80.27463,81.18761,0.00000,"Hypothetical-only; uncertainty from assumed weights, NOT experimental CI"

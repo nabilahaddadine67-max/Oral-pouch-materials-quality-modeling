@@ -49,3 +49,6 @@ All values are manually transcribed from public sources and may reflect rounding
 
 ### Stage 7
 US11844368B2 / https://patents.justia.com/patent/11844368 — Example 1 Tables 1–5 (two flavor-marker series; mean of three analyses; 30 °C 75% RH); Tables 7 and 13 (separate peel strength comparisons). Patent applicant data; fat loading and water content change together; source rights may apply. EP4680049A1 https://patents.google.com/patent/EP4680049A1/en used for separate contextual evidence only.
+
+### Stage 8 proposed scoring model
+`stage8_measured_flavor_partial_scores.csv` is derived from the Stage 7 patent's **matched 3-week limonene and linalyl acetate retention** measurements (US11844368B2 Tables 3b and 4b) using a two-marker geometric mean. It explicitly leaves the **overall** six-domain score missing. `stage8_hypothetical_scenarios.csv` and `stage8_weight_sensitivity_hypothetical.csv` are generated examples with fabricated desirabilities and assumed weights, clearly identified as such. See `reports/stage8_quality_index.md`. No across-study data merging or missing-value imputation is performed.

@@ -1,0 +1,6 @@
+matrix_condition,fat_wt_pct,water_wt_pct,limonene,linalyl_acetate,flavor_marker_subscore_0_100,moisture_desirability,physical_desirability,release_desirability,flavor_desirability,chemical_desirability,aging_desirability,domains_with_evidence,total_domains,complete_product_quality_score,measurement_scope,provenance
+1% coconut fat,1,51,20,54,32.8634,,,,0.3286,,,1,6,,"2 flavor markers, 3 weeks, 30 C, 75% RH; not total pouch quality",US11844368B2 Tables 3b and 4b; applicant-reported
+1% rapeseed oil,1,51,14,44,24.8193,,,,0.2482,,,1,6,,"2 flavor markers, 3 weeks, 30 C, 75% RH; not total pouch quality",US11844368B2 Tables 3b and 4b; applicant-reported
+5% coconut fat,5,47,69,95,80.9630,,,,0.8096,,,1,6,,"2 flavor markers, 3 weeks, 30 C, 75% RH; not total pouch quality",US11844368B2 Tables 3b and 4b; applicant-reported
+5% rapeseed oil,5,47,61,84,71.5821,,,,0.7158,,,1,6,,"2 flavor markers, 3 weeks, 30 C, 75% RH; not total pouch quality",US11844368B2 Tables 3b and 4b; applicant-reported
+No oil,0,52,3,5,3.8730,,,,0.0387,,,1,6,,"2 flavor markers, 3 weeks, 30 C, 75% RH; not total pouch quality",US11844368B2 Tables 3b and 4b; applicant-reported
