@@ -1,0 +1,11 @@
+flavor,matrix_condition,k_per_week,predicted_week3_retention_pct,observed_week3_retention_pct,absolute_error_pp,persistence_prediction_week3_pct,persistence_abs_error_pp
+limonene,No oil,1.468324,1.222,3.0,1.778,6.0,3.0
+limonene,1% coconut fat,0.743176,10.758,20.0,9.242,23.0,3.0
+limonene,5% coconut fat,0.211368,53.041,69.0,15.959,69.0,0.0
+limonene,1% rapeseed oil,0.788909,9.379,14.0,4.621,22.0,8.0
+limonene,5% rapeseed oil,0.313348,39.061,61.0,21.939,55.0,6.0
+linalyl_acetate,No oil,1.009605,4.837,5.0,0.163,13.0,8.0
+linalyl_acetate,1% coconut fat,0.28779,42.174,54.0,11.826,57.0,3.0
+linalyl_acetate,5% coconut fat,0.063216,82.725,95.0,12.275,90.0,5.0
+linalyl_acetate,1% rapeseed oil,0.316267,38.72,44.0,5.28,55.0,11.0
+linalyl_acetate,5% rapeseed oil,0.133979,66.902,84.0,17.098,79.0,5.0

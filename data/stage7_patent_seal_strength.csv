@@ -1,0 +1,5 @@
+source,comparison,formulation,peel_strength_N_per_mm,n_analyses,limitation
+US11844368B2 Table 7,10-day storage,10% rapeseed oil and 42% water,0.077,12,Not matched for water with reference
+US11844368B2 Table 7,10-day storage,0% rapeseed oil and 52% water,0.053,12,Not matched for water with oil example
+US11844368B2 Table 13,4 days at 8 C,1% monoglyceride,0.1214,not stated,Comparison also changes water and humectants
+US11844368B2 Table 13,4 days at 8 C,0% monoglyceride,0.0658,not stated,Comparison also changes water and humectants

@@ -45,3 +45,7 @@ All values are manually transcribed from public sources and may reflect rounding
 
 ### Stage 6 external flavor-aging benchmarks
 - ACS Omega (2025), DOI: https://doi.org/10.1021/acsomega.5c01266, full text https://pmc.ncbi.nlm.nih.gov/articles/PMC12019726/. Commercial e-liquid analyte fractions at six and 24 months, not nicotine pouch measurements. Qualitative compound observations are explicitly labeled as such.
+
+
+### Stage 7
+US11844368B2 / https://patents.justia.com/patent/11844368 — Example 1 Tables 1–5 (two flavor-marker series; mean of three analyses; 30 °C 75% RH); Tables 7 and 13 (separate peel strength comparisons). Patent applicant data; fat loading and water content change together; source rights may apply. EP4680049A1 https://patents.google.com/patent/EP4680049A1/en used for separate contextual evidence only.

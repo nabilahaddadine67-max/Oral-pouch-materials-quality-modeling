@@ -1,0 +1,41 @@
+source,source_tables,flavor,matrix_condition,fat_type,fat_wt_pct,water_wt_pct,temperature_C,relative_humidity_pct,weeks,reported_concentration_mg_g,reported_retention_pct,measurement_type
+US11844368B2,3a;3b,limonene,No oil,none,0,52,30,75,0,1.65,100,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,No oil,none,0,52,30,75,1,0.3,18,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,No oil,none,0,52,30,75,2,0.1,6,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,No oil,none,0,52,30,75,3,0.05,3,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,1% coconut fat,coconut,1,51,30,75,0,2.22,100,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,1% coconut fat,coconut,1,51,30,75,1,1.02,46,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,1% coconut fat,coconut,1,51,30,75,2,0.51,23,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,1% coconut fat,coconut,1,51,30,75,3,0.45,20,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,5% coconut fat,coconut,5,47,30,75,0,2.81,100,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,5% coconut fat,coconut,5,47,30,75,1,2.04,73,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,5% coconut fat,coconut,5,47,30,75,2,1.94,69,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,5% coconut fat,coconut,5,47,30,75,3,1.94,69,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,1% rapeseed oil,rapeseed,1,51,30,75,0,2.23,100,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,1% rapeseed oil,rapeseed,1,51,30,75,1,0.9,40,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,1% rapeseed oil,rapeseed,1,51,30,75,2,0.48,22,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,1% rapeseed oil,rapeseed,1,51,30,75,3,0.31,14,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,5% rapeseed oil,rapeseed,5,47,30,75,0,2.91,100,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,5% rapeseed oil,rapeseed,5,47,30,75,1,2.0,69,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,5% rapeseed oil,rapeseed,5,47,30,75,2,1.6,55,mean of three analyses; individual values and SD unavailable
+US11844368B2,3a;3b,limonene,5% rapeseed oil,rapeseed,5,47,30,75,3,1.76,61,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,No oil,none,0,52,30,75,0,3.4,100,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,No oil,none,0,52,30,75,1,1.31,38,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,No oil,none,0,52,30,75,2,0.45,13,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,No oil,none,0,52,30,75,3,0.16,5,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,1% coconut fat,coconut,1,51,30,75,0,3.83,100,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,1% coconut fat,coconut,1,51,30,75,1,2.79,73,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,1% coconut fat,coconut,1,51,30,75,2,2.17,57,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,1% coconut fat,coconut,1,51,30,75,3,2.06,54,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,5% coconut fat,coconut,5,47,30,75,0,4.01,100,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,5% coconut fat,coconut,5,47,30,75,1,3.6,90,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,5% coconut fat,coconut,5,47,30,75,2,3.6,90,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,5% coconut fat,coconut,5,47,30,75,3,3.81,95,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,1% rapeseed oil,rapeseed,1,51,30,75,0,3.65,100,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,1% rapeseed oil,rapeseed,1,51,30,75,1,2.48,68,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,1% rapeseed oil,rapeseed,1,51,30,75,2,2.02,55,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,1% rapeseed oil,rapeseed,1,51,30,75,3,1.62,44,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,5% rapeseed oil,rapeseed,5,47,30,75,0,4.11,100,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,5% rapeseed oil,rapeseed,5,47,30,75,1,3.37,82,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,5% rapeseed oil,rapeseed,5,47,30,75,2,3.24,79,mean of three analyses; individual values and SD unavailable
+US11844368B2,4a;4b,linalyl_acetate,5% rapeseed oil,rapeseed,5,47,30,75,3,3.44,84,mean of three analyses; individual values and SD unavailable

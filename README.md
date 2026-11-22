@@ -209,3 +209,25 @@ We added **six numerical published aging observations** plus compound-specific c
 ![Measured flavor loss at two aging timepoints](figures/stage6_external_flavor_aging_timepoints.png)
 
 Reproduce: `python scripts/stage6_flavor_stability.py`.
+
+
+---
+
+## Stage 7 — Measured oral-pouch flavor retention: time-course model
+
+**New direct pouch data:** [US11844368B2, Tables 1–5](https://patents.justia.com/patent/11844368) provide two measured flavor markers × five matrix conditions × four storage times (**40 published summary observations**). Storage was 30 °C / 75% RH. This is a more relevant source than extrapolating from e-liquid aging.
+
+**[Read the scientific analysis](reports/stage7_pouch_flavor_retention.md)** · [Original transcribed data](data/stage7_patent_flavor_retention.csv) · [3-week contrasts](data/stage7_week3_descriptive_comparisons.csv) · [Week-3 held-out predictions](data/stage7_holdout_forecasts.csv)
+
+### Measured flavor-marker retention over time
+![Limonene and linalyl acetate retention across 3 weeks](figures/stage7_measured_retention_curves.png)
+
+### Reported 3-week outcomes
+![Measured week-3 retention by matrix](figures/stage7_week3_retention_by_matrix.png)
+
+### Exploratory temporal prediction check
+![Model predicted versus observed week-3 retention](figures/stage7_holdout_prediction.png)
+
+Reproduce locally: `python scripts/stage7_pouch_flavor_retention.py`
+
+**Critical caveat:** water content changed with fat loading (52% reference vs. 47% with 5% fat), so the effect cannot be causally attributed to fat alone. The curves are source observations; only the temporal forecast is model-generated. **No optimal formulation is claimed.**
