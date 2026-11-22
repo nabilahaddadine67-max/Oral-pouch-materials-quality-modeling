@@ -1,0 +1,3 @@
+model,n_observations,n_parameters,residual_df,training_rmse_pp,leave_one_out_rmse_pp
+main_effects,8,4,4,3.66683,7.33366
+main_plus_BC,8,5,3,1.40373,3.74329
